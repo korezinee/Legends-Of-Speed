@@ -26,8 +26,7 @@ local Root = Chr.HumanoidRootPart
 local AreaToFarm = {}
 local Crystals = {}
 
---// Autofarm \\--
-
+--// Functions \\--
 local function CityFarm()
     spawn(function()
         while task.wait() do
